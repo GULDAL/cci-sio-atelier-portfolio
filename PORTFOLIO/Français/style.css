@@ -99,6 +99,8 @@ footer h1{
     border-bottom: 1px solid white;
     width: 20%;
     padding-bottom: 5px;
+    list-style: none;
+    text-decoration: none;
 }
 footer .services{
     margin-top: -10px;
@@ -113,6 +115,8 @@ footer .services .service p{
 }
 footer #contact{
     color: rgb(181, 181, 181);
+    list-style: none;
+    text-decoration: none;
 }
 
 @media screen and (max-width:680px){
@@ -134,4 +138,11 @@ footer #contact{
     footer{
         padding: 30px;
     }
+}
+a{
+    text-decoration: none;
+    color:#224a95
+}
+a:hover{
+    border-bottom: white 1px solid;
 }
