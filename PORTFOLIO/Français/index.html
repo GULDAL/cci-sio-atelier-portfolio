@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="btn">
+      <a href="#toppage" id="flèche"><img src="../../Photo/fleche.png" class="icone">
+        </a>
+     </div>
+  
     <nav>
     
         <h1>Suleyman Kadir</h1>
-        <div class="onglets">
+        <div class="onglets" id="toppage">
             <a href="#">Acceuil</a>
             <a href="#Présentations">Présentations</a>
             <a href="#Études">Études</a>
@@ -18,16 +24,16 @@
             <a href="#Langue">Langue :</a>
         </div>
         <div class="seu-lang-list">
-            <a href="file:///C:/Users/suley/Desktop/COURS%20CCI/Mr.schossig/Atelier%20de%20profesionalisation/GULDALSIO21%20Portfolio/CCI-SIO21-Portfolio/PORTFOLIO/Fran%C3%A7ais/index.html" title="Français" class="seu-lang seu-fr ">fr</a>
-            <a href="file:///C:/Users/suley/Desktop/COURS%20CCI/Mr.schossig/Atelier%20de%20profesionalisation/GULDALSIO21%20Portfolio/CCI-SIO21-Portfolio/PORTFOLIO/Turkce/index.html" title="Turkce" class="seu-lang seu-de actif">tr</a>
-            <a href="file:///C:/Users/suley/Desktop/COURS%20CCI/Mr.schossig/Atelier%20de%20profesionalisation/GULDALSIO21%20Portfolio/CCI-SIO21-Portfolio/PORTFOLIO/English/index.html" title="English" class="seu-lang seu-en ">en</a>
+            <a href="../Français/index.html" title="Français" class="seu-lang seu-fr ">fr</a>
+            <a href="../Turkce/index.html" title="Turkce" class="seu-lang seu-de actif">tr</a>
+            <a href="../English/index.html" title="English" class="seu-lang seu-en ">en</a>
           </div>
     </nav>
 
     <header>
         <h1>Portfolio</h1>
         <h4>Bienvenue !</h4>
-        <button>Parcourir</button>
+        <button type="reset" name="myButton">Bienvenue !</button>
     </header>
     
 
@@ -40,7 +46,7 @@
                     <p>Bonjour je me présente je m'appelle Suleyman Kadir GULDAL, j'ai actuellement 19 ans et j'habite à STRASBOURG. Je suis actuellement étudiant en BTS alternance, je suis passionnée par l’informatique , les nouvelles technologies et la photographie .</p>
                 </div>
                 <div class="right">
-                    <img src="C:\Users\suley\Desktop\COURS CCI\Mr.schossig\Atelier de profesionalisation\GULDALSIO21 Portfolio\CCI-SIO21-Portfolio\Photo\photo de profil.png" alt="" 
+                    <img src="../../Photo/photo de profil.png" alt="" 
                     width="400"
                     height="360">
                 </div>
@@ -53,7 +59,7 @@
                     <p>Je suis diplômé du baccalauréat professionnel en systèmes numériques, j'ai effectué un bac professionnel en systèmes numériques au lycée LOUIS COUFFIGNAL de Strasbourg. Actuellement je suis en alternance au cci campus de Strasbourg en sio (services informatiques aux organisations) dans l’entreprise Sevilog qui me forme en tant que technicien,  j’ai acquis différente compétences tel que installer des caisses enregistreuses, maintenance a distance , réparation de matériel . </a> </p>
                 </div>
                 <div class="right">
-                    <img src="C:\Users\suley\Desktop\COURS CCI\Mr.schossig\Atelier de profesionalisation\GULDALSIO21 Portfolio\CCI-SIO21-Portfolio\Photo\CCI.jpg" alt="">
+                    <img src="../../Photo/CCI.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -67,7 +73,7 @@
                     <p>Grace à mes différents stages et études j’ai acquis plusieurs compétences, j’ai quelque base en html et css, maintenance et réparation de matériel informatique (ordinateur, écran, installation de Windows), charger du SAV (Réparation de machines décodeur, casques, radio). Installation et configuration de postes informatique, Intervention technique aide particulier.</p>
                 </div>
                 <div class="right">
-                    <img src="C:\Users\suley\Desktop\COURS CCI\Mr.schossig\Atelier de profesionalisation\GULDALSIO21 Portfolio\CCI-SIO21-Portfolio\Photo\competences.jpg" alt="">
+                    <img src="../../Photo/competences.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -80,19 +86,19 @@
             <div class="service">
                 <h1<p><a href="mailto:suleymanguldal.67380@gmail.com">Adresse mail</a></p></h1>
                 <h3><p><a href="https://www.linkedin.com/in/suleymankadir/">Linkedln</a></p></h3>
-                <h3><p><a href="C:\Users\suley\Desktop\COURS CCI\Mr.schossig\Atelier de profesionalisation\GULDALSIO21 Portfolio\CCI-SIO21-Portfolio\CV.pdf.png" title="Pdf">Veuillez cliquez pour voir mon CV</a></p></h3>   
+                <h3><p><a href="../../CV.pdf.png" title="Pdf">Veuillez cliquez pour voir mon CV</a></p></h3>   
             </div>
 
 
-        </div>
-
-        <p id="contact">Contact : 07 68 02 14 94 | &copy; 2022, suleyman Kadir</p>
+        <div class="container">
+        <p id="contact">Contact : 07 68 02 14 94 | &copy; 2022, Suleyman Kadir</p>
        <form target="_blank" action="https://formsubmit.co/suleymanguldal.67380@gmail.com" method="POST">
                         <input placeholder="Nom" type="text" name="name" required="">
                         <input placeholder="E-mail" type="email" name="email" required="">
                         <textarea placeholder="Votre message ici..." name="texte" required=""></textarea>
                         <button placeholder="Votre message ici..." type="submit">Envoyer</button>
                    </form>
+        </div>
     </footer>
 </body>
 </html>

@@ -61,6 +61,14 @@ header button{
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: all;
+    color: #ffffff;
+    border-radius: 30px;
+
+}
+header button:hover{
+    background-color: #0f2449;
 }
 
 .main{
@@ -141,4 +149,37 @@ a{
 }
 a:hover{
     border-bottom: white 1px solid;
+}
+.container {
+    width: 500px;
+    clear: both;
+  }
+  
+  .container input {
+    width: 100%;
+    clear: both;
+  }
+  .container input {
+    width: 80%;
+    height: 20%;
+    clear: both;
+  }
+  .btn {
+    height: 70px;
+    width: 70px;
+    background: #224a95;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.icone {
+    width: 50px;
+}
+#flèche, #flèche:hover{
+    text-decoration: none;
 }
